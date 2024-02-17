@@ -1,0 +1,15 @@
+.timerow {
+    background-color: $red;
+    color: $white;
+}
+
+.border-end,
+.border-bottom {
+    border-color: $red !important;
+}
+
+@media only screen and (max-width:767px) {
+    .border-end {
+        border: 0 !important;
+    }
+}
